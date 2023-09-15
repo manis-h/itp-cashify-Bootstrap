@@ -1,0 +1,236 @@
+.navbar{
+    padding-left: 15vh;
+    padding-right: 15vh;
+    background-color: white;
+}
+.nev-section{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+    color: black;
+}
+.nev-section-li{
+    color: black;
+}
+/* carousel */
+.carouselatt{
+    height: 80vh;
+}
+.container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
+.sell-for-cash{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.titlesell{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.sellbox{
+    height: 140px;
+    width: 140px;
+    margin: 2px;
+    margin-left: 20px;
+    padding-top: 7px;
+    background-color: #f5f5f5;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sellimg{
+    height: 50%;
+    width: 50%;
+}
+.sellsub{
+    font-size: medium;
+    font-weight: 400;
+
+}
+.sellbox:hover{
+    background-color: white;
+    border: 1px solid #f5f5f5;
+    border-radius: 6px;
+}
+/* Additional services */
+.additional-Services{
+margin-left: 30px;
+margin-top: 10px;
+}
+
+/* Mid Section */
+.midSection{
+    height:55vh;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color:#FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.why-us{
+    height:70vh;
+    width: 100%;
+    margin-top: 70px;
+    padding-top: 40px;
+    margin-bottom: 70px;
+    background-color: white;
+    box-shadow: 1px 1px 4px rgb(214, 212, 207) ;
+}
+.why-us-cont{
+    margin-top: 20px;
+}
+.iconTitle{
+    color: turquoise;
+    padding-left: 100px;
+    font-size: x-large;
+}
+/* OFFERS */
+.container-offer{
+    display: flex;
+    flex-direction: row;
+}
+.bf{
+    font-weight: bolder;
+    font-size: x-large;
+}
+.offerbox{
+    display: flex;
+    justify-content: space-around;
+}
+/* trusted */
+.container-trust{
+    height: 60vh;
+   padding-top: 80px;
+   padding-left: 80px;
+    background-color: rgb(245, 244, 244);
+}
+.trustno{
+    height: 12vh;
+    width: 35vh;
+  box-shadow: 2px 2px 6px gainsboro;
+  border-radius: 5px;
+    margin: 5px;
+}
+.tone{
+    display: flex;
+    justify-content: space-around;
+}
+.bg-pik{
+    height: 10%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+/* Downlaod
+ */
+
+ .download{
+     height: 50vh;
+     width: 100%;
+     background-color: #FAFAFA;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-left: 80px;
+     padding-bottom: 10px;
+ }
+ .downloadfrom{
+     height: 10vh;
+     width: 30vh;
+ }
+
+ /* footer */
+ .cont-footer{
+     height: 40vh;
+     align-items: baseline;
+     padding-left: 30px;
+ }
+.copyright{
+    box-shadow: 2px 2px 5px rgb(218, 216, 216);
+    padding-left: 80px;
+    height: 40px;
+}
+
+/* what expert says */
+.whatexpertsays{
+    max-height: 75vh;
+    height: 75vh;
+    padding-left: 80px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.wes-box1{
+    height: 70vh;
+    width: 50vh;
+    margin: 15px;
+    min-width: 50vh;
+}
+
+.wes-box-r1{
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(53, 199, 184);
+    border-radius: 10px;
+}
+
+.wes-box-r1-b{
+    height: 40vh;
+    width: 100%;
+    box-shadow: 2px 2px 9px rgb(224, 223, 223);
+    border-radius: 10px;
+}
+
+
+.wes-box-r2{
+    height: 30vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.wes-box-r1-p{
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 35px;
+
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 25px solid rgb(53, 199, 184);
+    margin-left: 180px;
+}
+.triangle-down-b{
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 25px solid rgb(217, 221, 221);
+
+    margin-left: 180px;
+}
+
+.wes-box-profile{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
