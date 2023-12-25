@@ -74,7 +74,7 @@ p {
   line-height: 75px;
   margin: -40px auto 0 auto;
 }
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   /* … */
 .maintitle{
   font-size: small !important;
