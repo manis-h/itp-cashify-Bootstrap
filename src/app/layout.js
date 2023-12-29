@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         crossorigin="anonymous"
       />
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
+      <link rel="canonical" href="https://www.refurbys.com" />
       <body className={inter.className}>
         {children}
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
